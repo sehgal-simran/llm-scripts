@@ -1,0 +1,58 @@
+
+
+const moods = [
+    "Aroused",
+    "Cheeky",
+    "Free",
+    "Joyful",
+    "Curious",
+    "Inquisitive",
+    "Successful",
+    "Confident",
+    "Respected",
+    "Valued",
+    "Courageous",
+    "Creative",
+    "Loving",
+    "Thankful",
+    "Sensitive",
+    "Intimate",
+    "Hopeful",
+    "Inspired",
+    "Shocked",
+    "Dismayed",
+    "Disillusioned",
+    "Perplexed",
+    "Astonished",
+    "Awe",
+    "Eager",
+    "Energetic",
+    "Frightened",
+    "Helpless",
+    "Overwhelmed",
+    "Worried",
+    "Inadequate",
+    "Inferior",
+    "Worthless",
+    "Insignificant",
+    "Persecuted",
+    "Excluded",
+    "Nervous",
+    "Exposed",
+    "Out of Control",
+    "Unfocused",
+    "Sleepy",
+    "Indifferent",
+    "Apathetic",
+    "Pressured",
+    "Rushed",
+    "Judgmental",
+    "Embarrassed",
+    "Appalled",
+   
+];
+
+let moodString="";
+moods.forEach(m=> moodString+=`${m},`);
+
+const prompt = `Here is a list of emotions: ${moodString}. For each poem in this list`
